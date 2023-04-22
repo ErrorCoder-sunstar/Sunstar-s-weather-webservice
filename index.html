@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sunstar's Weather report </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <video src="bg-video.mp4" autoplay muted loop></video>
+            <div class="searchbar">
+                <div class="form">
+                        <input type="text" placeholder="Enter Any City Name" required id="cityinput" value="">
+                        <input type="submit" id="add" value="submit" class="sub">
+                </div>
+            </div>
+            <div class="contant">
+                <div class="box">
+                    <h2>Sky Condition</h2>
+                    <div class="img-box">
+                        <img src="cloud.png">
+                    </div>
+                    <div class="deatil">
+                        <h3 id="description">--</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Temperature</h2>
+                    <div class="img-box">
+                        <img src="sun.png">
+                    </div>
+                    <div class="deatil">
+                        <h3 id="temp">--</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Wind Speed</h2>
+                    <div class="img-box">
+                        <img src="wind.png">
+                    </div>
+                    <div class="deatil">
+                        <h3 id="wind">--</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
